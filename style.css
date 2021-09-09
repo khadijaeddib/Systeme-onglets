@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEE;
+    padding: 50px;
+}
+section{
+    padding-bottom: 20px;
+}
+button {
+    border: 0px solid #EEE;
+    padding: 10px 15px;
+    box-shadow:  0 0 2px rgb(0 0 0 / 15%);
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.onglets {
+    display: flex;
+    flex-direction: row;
+}
+.onglet-content p{
+    display: none;
+}
+.onglet-content .active{
+    display: block;
+    background-color: #fff;
+    border: 0px solid #EEE;
+    padding: 20px;
+    box-shadow:  0 1px 2px rgb(0 0 0 / 15%);
+}
+.active button{
+    display: block;
+    background-color: #fff;
+}
